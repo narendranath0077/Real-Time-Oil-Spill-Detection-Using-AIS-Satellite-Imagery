@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Large data and model artifacts
+data/ais/raw/*.csv
+data/oil-spill-dataset/
+models/**/*.h5
+archive/
+
+# Generated outputs
+outputs/
+runs/
+checkpoints/
+
+# Installers and binaries
+*.exe
